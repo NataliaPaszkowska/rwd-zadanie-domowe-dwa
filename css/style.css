@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+#main-header {
+    background-image: url(man-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+header div {
+    position: absolute;
+    color: #fff;
+    font-family: Verdana, sans-serif;
+    top: 50%;
+    left: 3%;   
+}
+
+.header-two {
+    display: none;
+}
+
+#main-header .header-caption h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#main-header .header-caption h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
